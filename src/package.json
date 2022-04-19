@@ -5,9 +5,9 @@
   },
   "name": "dev_node",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "src/app.js",
   "bin": {
-    "dev_node": "bin/www.js"
+    "dev_node": "src/bin/www.js"
   },
   "scripts": {
     "start": "node ./src/bin/www.js",

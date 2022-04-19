@@ -8,7 +8,7 @@ const app = express();
 const home = require("./routes/home");
 
 //앱 셋팅
-app.set("views","./views");
+app.set("views",".views");
 app.set("view engine","ejs");
 
 // use : 미들웨어를 등록해주는 메서드 
